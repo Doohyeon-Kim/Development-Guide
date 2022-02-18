@@ -106,11 +106,11 @@ https://dart.dev/guides/language/effective-dart/style
 
    **Bad** 😞
     ```
-    import 'test_screen.dart'; 
+    import 'services/network_service.dart'; 
     ``` 
    **Good** 😊
     ```
-    import 'package:flutter_project/screens/test_screen.dart';
+    import 'package:flutter_project/lib/services/network_service.dart';
     ```
 10. 관용적인 용어가 아니면 약어 사용을 피한다.
     |Bad 😞|Good 😊|
