@@ -79,7 +79,7 @@
 
 <br>
 
-## Naiming
+## Naming
 기본적인 네이밍 룰은 Style guide for Flutter를 참조한다.
 
 https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo
