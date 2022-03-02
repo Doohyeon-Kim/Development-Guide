@@ -30,9 +30,9 @@
   
 ```bash
 # <type>: <subject>
-##### Maximum length of subject is 50 ############## -> |
+##### 제목의 최대 길이는 50(영문), 한글(25) ############## -> |
 # content
-######## Maximum length of content is 72 ########### -> |
+######## 내용의 최대 길이는 72(영문), 한글(37) ########### -> |
 # issue track number (#number)
 # --- COMMIT END ---
 # <type> list
