@@ -1,7 +1,7 @@
 # Git-Commit-Guide
 
 
-bash```
+```bash
 # <type>: <subject>
 ##### Maximum length of subject is 50 ############## -> |
 # content
