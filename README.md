@@ -1,6 +1,6 @@
 # Flutter Development Guide
 
-###### written by Doohyeon Kim,   First written on 2021.05.17, last updated date on 2022.02.18
+###### written by Doohyeon Kim,   First written on 2021.05.17, last updated date on 2022.03.02
 
 <br>
 
@@ -211,6 +211,51 @@ https://dart.dev/guides/language/effective-dart/style
 ```
 
 <br>
+
+## 패키지
+
+패키지를 pubspec.yaml에 추가할 때 ^를 사용한다.
+
+패키지는 가능한 Flutter Favorite에 있는 것으로 사용한다.
+
+아래 목록에서 없는 플러그인은 추가하기 전에 Flutter 개발 관리자에게 승인을 받은 후 추가한다.
+
+패키지 목록
+  - logger
+  - json_serializable
+  - shared_preferences
+  - provider
+  - flutter_local_notifications
+  - http
+  - url_launcher
+  - flutter_native_splash
+  - path_provider
+  - cached_network_image
+  - go_router
+  - video_player
+  - flutter_inappwebview
+  - Flutter Community Plus Plugins
+    - battery_plus
+    - connectivity_plus
+    - device_info_plus
+    - network_info_plus
+    - package_info_plus
+    - sensors_plus
+    - share_plus
+  - uuid
+  - easy_localization
+  - mockito
+  - build_runner
+  - image_picker
+  - geolocator
+  - flutter_lints
+  - permission_handler
+  - flutter_svg
+  - font_awesome_flutter
+  - flutter_slidable
+  - tutorial_coach_mark
+  - fluttertoast
+  - animations
 
 
 ## etc
