@@ -1,6 +1,7 @@
 # Git-Commit-Guide
 
 
+bash```
 # <type>: <subject>
 ##### Maximum length of subject is 50 ############## -> |
 # content
@@ -25,8 +26,9 @@
 #     Use the body explain "what" and "why" vs "how"
 #     Use "-" when content contains multiline
 # ------------------
+```
   
-  
+```bash
 # <type>: <subject>
 ##### Maximum length of subject is 50 ############## -> |
 # content
@@ -51,5 +53,5 @@
 #     본문에 "어떻게"보다는 "무엇"과 "왜"를 설명한다.
 #     내용에 여러줄이 포함된 경우 "-"를 사용한다.
 # ------------------
-  
+```
   
