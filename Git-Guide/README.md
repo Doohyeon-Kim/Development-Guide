@@ -9,7 +9,7 @@
   - hotfix: 배포된 main에서 핫픽스가 필요한 경우 main으로부터 분기한다.
    
 2. main은 매니저 허가 없이 절대 건들지 않는다.
-3. merge conflict 발생 시 무조건 매니저 또는 팀에 공유하고 해결 방법 논의
+3. merge conflict 발생 시 매니저 또는 팀에 공유하고 해결 방법 논의
 
 ## git commit message template
 
