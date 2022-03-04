@@ -2,12 +2,13 @@
 
 ## git flow
 1 git branch는 main, release, development, feature로 나눈다.
-    - main: 배포 branch
-    - release: 배포 전에 통합 QA를 하기 위한 branch
-    - develop: 개발 branch
-    - feature: local repository에서 작업하며, 기능 구현을 완료하면 PR하여 develop에 merge하고 필요 없어진 feature branch는 삭제한다.
-    - hotfix: 배포된 main에서 핫픽스가 필요한 경우 main으로부터 분기한다.
-2. main은 프로덕트 매니저 허가 없이 절대 건들지 않는다.
+  - main: 배포 branch
+  - release: 배포 전에 통합 QA를 하기 위한 branch
+  - develop: 개발 branch
+  - feature: local repository에서 작업하며, 기능 구현을 완료하면 PR하여 develop에 merge하고 필요 없어진 feature branch는 삭제한다.
+  - hotfix: 배포된 main에서 핫픽스가 필요한 경우 main으로부터 분기한다.
+   
+2. main은 매니저 허가 없이 절대 건들지 않는다.
 3. merge conflict 발생 시 무조건 매니저 또는 팀에 공유하고 해결 방법 논의
 
 ## git commit message template
@@ -43,7 +44,7 @@
 # <type>: <subject>
 ##### 제목의 최대 길이는 50(영문), 한글(25) ############## -> |
 # content
-######## 내용의 최대 길이는 72(영문), 한글(37) ########### -> |
+######## 내용의 최대 길이는 72(영문), 한글(36) ########### -> |
 # issue track number (#number)
 # --- COMMIT END ---
 # <type> list
