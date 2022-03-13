@@ -18,8 +18,7 @@
 
 회색으로 칠해져있는 부분은 상황에 따라 생략 가능하다.
 
-![doolumi_flutter_architecture](https://user-images.githubusercontent.com/92246475/154798139-66b8e5d5-17c6-45fd-857c-792876226501.png)
-
+![dooadex_flutter_architecture](https://user-images.githubusercontent.com/92246475/158056592-cd9bdcef-0846-45cd-ae57-0bdad9ca2e23.png)
 
 <br>
 
