@@ -10,6 +10,8 @@
 2. main은 매니저 허가 없이 절대 건들지 않는다.
 3. merge conflict 발생 시 매니저 또는 팀에 공유하고 해결 방법 논의
 
+<br>
+
 ## git commit template
 
 ```bash
@@ -66,6 +68,8 @@
 # ------------------
 ```
   
+<br>
+
 ## How to use git commit template
 
 ### Write .gitmessage file at $HOME.
@@ -75,6 +79,8 @@ vim ~/.gitmessage
 ```
 
 Copy & paste the template above into the .gimessage file.
+
+<br>
 
 ### add .gitmessage file to commit.template
 
