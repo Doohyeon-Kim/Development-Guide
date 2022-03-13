@@ -152,8 +152,8 @@ https://dart.dev/guides/language/effective-dart/style
 │   ├── constants
 │   │   ├── api_path.dart
 │   │   └── app_constants.dart
-│   ├── features
-│   │   ├── feature01
+│   ├── modules
+│   │   ├── modules01
 │   │   │   ├── data
 │   │   │   │   ├── data_sources
 │   │   │   │   │   ├── local
