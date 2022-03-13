@@ -1,6 +1,6 @@
 # Flutter Development Guide
 
-###### written by Doohyeon Kim,   First written on 2021.05.17, last updated date on 2022.03.02
+###### written by Doohyeon Kim,   First written on 2021.05.17, last updated date on 2022.03.13
 
 <br>
 
