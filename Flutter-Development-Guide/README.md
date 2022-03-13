@@ -97,15 +97,18 @@ https://dart.dev/guides/language/effective-dart/style
    |Bad 😞|Good 😊|
    |:---:|:---:|
    |``` /path/path/ ```|**/path/path-path**|
-9. 다른 dart 파일을 import 할 때는 'package:'가 포함된 형태로 import 한다.
+9. dart core library -> package -> relative 순으로 import 한다.
 
-   **Bad** 😞
-    ```
-    import 'services/network_service.dart'; 
-    ``` 
    **Good** 😊
     ```
-    import 'package:flutter_project/lib/services/network_service.dart';
+    import 'dart:html';
+    import 'dart:async';
+    
+    import 'package:flutter/material.dart';
+    import 'package:flutter/package_name/absolute/path.dart';
+    
+    import 'services/network_service.dart';
+    import 'modules/home/presentation/views/home_view.dart';
     ```
 10. 관용적인 용어가 아니면 약어 사용을 피한다.
     |Bad 😞|Good 😊|
