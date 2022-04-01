@@ -16,8 +16,7 @@
 ## Architecture
 회색으로 칠해져있는 부분은 상황에 따라 생략 가능하다.
 
-![dooadex_flutter_architecture_mvvvm](https://user-images.githubusercontent.com/92246475/161226835-c46b42ed-bac6-4a56-843d-f8ddbcc809bb.png)
-
+![doohyeon_kim_flutter_architecture](https://user-images.githubusercontent.com/92246475/161226835-c46b42ed-bac6-4a56-843d-f8ddbcc809bb.png)
 
 <br>
 
