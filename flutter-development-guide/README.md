@@ -14,11 +14,10 @@
 <br>
 
 ## Architecture
-이해를 돕기 위해 Clean Architecture와 MVVM 디자인 패턴과 비교했다.
-
 회색으로 칠해져있는 부분은 상황에 따라 생략 가능하다.
 
-![dooadex_flutter_architecture](https://user-images.githubusercontent.com/92246475/158056592-cd9bdcef-0846-45cd-ae57-0bdad9ca2e23.png)
+![dooadex_flutter_architecture_mvvvm](https://user-images.githubusercontent.com/92246475/161226835-c46b42ed-bac6-4a56-843d-f8ddbcc809bb.png)
+
 
 <br>
 
@@ -89,7 +88,7 @@ https://dart.dev/guides/language/effective-dart/style
    |Bad 😞|Good 😊|
    |:---:|:---:|
    |```on_01green_btn.dart```|**button_green01_on.dart**|
-4. global constant에는 prefix k를 붙인다.
+4. constant 중에 치수를 의미하는 constant는 prefix로 k를 붙인다. 그 외에는 붙이지 않는다.
 5. class, enum, extension, typedef 등에는 UpperCamelCase를 사용한다.
 6. library, package, directory, source file, import prefix에는 snake_case를 사용한다.
 7. 그 외 변수/상수 이름 등에는 lowerCamelCase를 사용한다.
@@ -134,63 +133,62 @@ https://dart.dev/guides/language/effective-dart/style
 ###### 목적 없는 지나친 정규화는 피한다.
 
 ### Directory Structure
-``` bash
+```bash
 .
 ├── README.md
-├── analysis_options.yaml
 ├── android
-├── assets
-│   ├── fonts
-│   ├── icons
-│   └── images
 ├── ios
 ├── lib
 │   ├── components
 │   │   └── component.dart
-│   ├── config
-│   │   ├── config.dart
+│   ├── configs
+│   │   ├── app_config.dart
 │   │   ├── palette.dart
-│   │   └── routes.dart
+│   │   └── themes
 │   ├── constants
 │   │   ├── api_path.dart
-│   │   └── app_constants.dart
-│   ├── modules
-│   │   ├── module01
-│   │   │   ├── data
-│   │   │   │   ├── data_sources
-│   │   │   │   │   ├── local
-│   │   │   │   │   │   └── sample_local.dart
-│   │   │   │   │   └── remote
-│   │   │   │   │       └── sample_remote.dart
-│   │   │   │   ├── entities
-│   │   │   │   │   └── sample_entity.dart
-│   │   │   │   └── repositories
-│   │   │   │       └── sample_repository_impl.dart
-│   │   │   ├── domain
-│   │   │   │   ├── models
-│   │   │   │   │   └── sample_model.dart
-│   │   │   │   ├── repositories
-│   │   │   │   │   └── sample_repository.dart
-│   │   │   │   ├── translater
-│   │   │   │   │   └── sample_translater.dart
-│   │   │   │   └── usecases
-│   │   │   │       └── sample_usecase.dart
-│   │   │   └── presentation
-│   │   │       ├── screens
-│   │   │       │   └── sample_screen.dart
-│   │   │       ├── view_models
-│   │   │       │   └── sample_view_model.dart
-│   │   │       └── views
-│   │   │           └── sample_view.dart
+│   │   ├── app_constants.dart
+│   │   ├── asset_path.dart
+│   │   ├── exception_constants.dart
+│   │   ├── http_constants.dart
+│   │   └── named_routes.dart
+│   ├── data
+│   │   ├── data_sources
+│   │   │   ├── local
+│   │   │   │   └── sample_local_data_source.dart
+│   │   │   └── remote
+│   │   │       └── sample_remote_data_source.dart
+│   │   ├── entities
+│   │   │   └── sample_entity.dart
+│   │   └── repositories
+│   │       └── sample_repository_impl.dart
+│   ├── domain
+│   │   ├── models
+│   │   │   └── sample_model.dart
+│   │   ├── repositories
+│   │   │   └── sample_repository.dart
+│   │   ├── translator
+│   │   │   └── sample_translator.dart
+│   │   └── usecases
+│   │       └── sample_usecase.dart
 │   ├── main.dart
+│   ├── presentation
+│   │   ├── view_models
+│   │   │   └── sample_view_model.dart
+│   │   └── views
+│   │       └── sample_view.dart
+│   ├── screens
 │   ├── services
-│   │   ├── network_service
+│   │   ├── error
+│   │   │   └── error_message_handler.dart
 │   │   ├── firebase
-│   │   └── native_api
-│   │       ├── local_notifivation.dart
-│   │       └── shared_preference.dart
+│   │   ├── native_api
+│   │   │   ├── local_notifivation.dart
+│   │   │   └── shared_preference.dart
+│   │   └── network
+│   │       ├── http
+│   │       └── rest_api
 │   └── utilities
-│       ├── error_message_handler.dart
 │       └── logger.dart
 ├── pubspec.lock
 ├── pubspec.yaml
@@ -212,6 +210,7 @@ https://dart.dev/guides/language/effective-dart/style
   - logger
   - json_serializable
   - shared_preferences
+  - flutter_secure_storage
   - provider
   - flutter_local_notifications
   - http
@@ -241,9 +240,8 @@ https://dart.dev/guides/language/effective-dart/style
   - flutter_svg
   - font_awesome_flutter
   - flutter_slidable
-  - tutorial_coach_mark
-  - fluttertoast
   - animations
+  - google_fonts
 
 
 ## etc
