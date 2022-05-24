@@ -151,4 +151,11 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - What I did before request PR review.
  
 - What I want after this PR review.
+
+# Checklist:
+- [ ] I have performed a self-review of my code
+- [ ] My changes generate no new warnings
+- [ ] New and existing unit tests pass locally with my changeswarnings
+- [ ] I Followed the convention
+
 ```
