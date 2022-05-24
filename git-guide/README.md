@@ -155,7 +155,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 # Checklist:
 - [ ] I have performed a self-review of my code
 - [ ] My changes generate no new warnings
-- [ ] New and existing unit tests pass locally with my changeswarnings
+- [ ] New and existing unit tests pass locally with my changes
 - [ ] I Followed the convention
 
 ```
