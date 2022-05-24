@@ -148,7 +148,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 ```bash
 - Summary
  
-- Before I request PR review
+- What I did before request PR review.
  
-- After this PR reviewed
+- What I want after this PR review.
 ```
