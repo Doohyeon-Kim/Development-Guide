@@ -5,7 +5,7 @@
 
 <br>
 
-## DOOADEX (My Rcommendation)
+## My Rcommendation
 
 ##### I referenced RFC 7807, Google API design guide, Apple, Meta, Twitter, and AWS APIs.
 
