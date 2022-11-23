@@ -225,7 +225,7 @@
   # "data": null  /* or optional error payload */
   
   "error": {
-    "type": "dooadex-01", # /* Something a unique identifier for the error */
+    "type": "error-01", # /* Something a unique identifier for the error */
   # "code": 404 /* optional */
     "message": "The server can not find the requested resource."  # /* Message for Developer. */
     "detail": "Unregistered user." # /* Message for User. */
