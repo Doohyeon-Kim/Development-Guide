@@ -15,7 +15,7 @@
 
 ## Architecture
 
-![Flutter Multi-Package Architecture](https://user-images.githubusercontent.com/92246475/219551453-77678dec-fc9b-471e-9e52-75e02ef6c7d2.png)
+![Flutter Monorepo   Multi-Package Architecture](https://github.com/Doohyeon-Kim/Flutter-Multi-Package-Architecture/assets/92246475/ca33b704-1bcc-461f-8308-afeec7df29d0)
 
 <br>
 
