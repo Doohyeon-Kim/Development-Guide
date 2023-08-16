@@ -136,17 +136,18 @@ https://dart.dev/guides/language/effective-dart/style
 4. json_serializable 관련 명령어
 json serializable 코드가 담인 파일 생성
 ```
-flutter pub run build_runner build
+flutter pub run build_runner build // (deprecated)
+dart run build_runner build
 ```
 
 watcher를 추가하여 필요할 때마다 자동으로 파일 생성
 ```
-flutter pub run build_runner watch
+dart run build_runner watch
 ```
 
 pub finished with exit code 78 에러 발생 시
 ```
 flutter clean
 flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
+dart run build_runner build --delete-conflicting-outputs
 ```
