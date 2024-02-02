@@ -20,7 +20,7 @@
     "user_id": "FfPS9TQdoKpuIvJaUhSMk8yQVrhPHdluQYqMHoteCj1zmgAAAYEoHfB-",
     "userN_name": "Doohyeon"
   },
-  "message_id" : "dfgh56dfg-qwe90scv-2nmk34"
+  "message_id" : "HdlQSzmgdSoKuQYqMHote8yQVrhPQVrhHdlCj1zmgAAfB-AYEoHJaU"
 }
 ```
 
