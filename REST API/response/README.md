@@ -15,12 +15,12 @@
 
 ```bash
 {
-  "statusCode": 200,
+  "status_code": 200,
   "data": {
-    "userId": "FfPS9TQdoKpuIvJaUhSMk8yQVrhPHdluQYqMHoteCj1zmgAAAYEoHfB-",
-    "userName": "Doohyeon"
+    "user_id": "FfPS9TQdoKpuIvJaUhSMk8yQVrhPHdluQYqMHoteCj1zmgAAAYEoHfB-",
+    "userN_name": "Doohyeon"
   },
-  "messageId" : "dfgh56dfg-qwe90scv-2nmk34"
+  "message_id" : "dfgh56dfg-qwe90scv-2nmk34"
 }
 ```
 
