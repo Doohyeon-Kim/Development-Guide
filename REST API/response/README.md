@@ -15,11 +15,12 @@
 
 ```bash
 {
-  "status_code": 200,
+  "statusCode": 200,
   "data": {
-    "user_id": "FfPS9TQdoKpuIvJaUhSMk8yQVrhPHdluQYqMHoteCj1zmgAAAYEoHfB-",
-    "user_name": "Doohyeon"
+    "userId": "FfPS9TQdoKpuIvJaUhSMk8yQVrhPHdluQYqMHoteCj1zmgAAAYEoHfB-",
+    "userName": "Doohyeon"
   },
+  "messageId" : "dfgh56dfg-qwe90scv-2nmk34"
 }
 ```
 
@@ -36,6 +37,7 @@
     "title": "Unregistered user." # /* A brief, human-readable message about the error */
     "detail": "The ID doesn't exist, Please sign-up to use this service." # /* A human-readable explanation of the error or Message for User. */
   },
+  "messageId" : "dfgh56dfg-qwe90scv-2nmk34"
 }
 ```
 
