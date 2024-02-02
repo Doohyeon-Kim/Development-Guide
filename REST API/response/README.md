@@ -31,7 +31,7 @@
 {
   "status_code" : 400 # /* The HTTP Response code
   "error": {
-    "type": "folivora-01", # /* A URI identifier that categorizes the error or Something a unique identifier for the error */
+    "type": "doohyeon-01", # /* A URI identifier that categorizes the error or Something a unique identifier for the error */
     "message": "The server can not find the requested resource."  # /* Message for Developer. */
     "title": "Unregistered user." # /* A brief, human-readable message about the error */
     "detail": "The ID doesn't exist, Please sign-up to use this service." # /* A human-readable explanation of the error or Message for User. */
