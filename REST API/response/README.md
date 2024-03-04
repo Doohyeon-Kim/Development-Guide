@@ -18,7 +18,7 @@
   "status_code": 200,
   "data": {
     "user_id": "FfPS9TQdoKpuIvJaUhSMk8yQVrhPHdluQYqMHoteCj1zmgAAAYEoHfB-",
-    "userN_name": "Doohyeon"
+    "user_name": "Doohyeon"
   },
   "message_id" : "HdlQSzmgdSoKuQYqMHote8yQVrhPQVrhHdlCj1zmgAAfB-AYEoHJaU"
 }
