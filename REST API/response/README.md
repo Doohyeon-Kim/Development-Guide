@@ -29,7 +29,7 @@
     "oldest_id": "256723",
     "newest_id": "321989",
     "result_count": 100,
-    "next_token": "7140w"
+    "next_token": "gfjasf13joas123@!fasdv"
   }
   "message_id" : "HdlQSzmgdSoKuQYqMHote8yQVrhPQVrhHdlCj1zmgAAfB-AYEoHJaU"
 }
