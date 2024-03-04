@@ -20,6 +20,17 @@
     "user_id": "FfPS9TQdoKpuIvJaUhSMk8yQVrhPHdluQYqMHoteCj1zmgAAAYEoHfB-",
     "user_name": "Doohyeon"
   },
+  "meta": {
+    "next_url": "...",
+    "next_max_id": "13872296",
+    "prev_page": "...",
+    "next_page" "...",
+    "link": "...",
+    "oldest_id": "256723",
+    "newest_id": "321989",
+    "result_count": 100,
+    "next_token": "7140w"
+  }
   "message_id" : "HdlQSzmgdSoKuQYqMHote8yQVrhPQVrhHdlCj1zmgAAfB-AYEoHJaU"
 }
 ```
