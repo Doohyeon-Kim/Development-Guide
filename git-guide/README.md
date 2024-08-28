@@ -22,7 +22,7 @@
 # issue track number (#number)
 # --- COMMIT END ---
 # <type> list
-#   feat    : New feature
+#   feature : New feature
 #   fix     : Fix bug
 #   refactor: Refactor code
 #   style   : Change style of code(white space, semicolon etc)
@@ -49,7 +49,7 @@
 # issue track number (#number)
 # --- COMMIT END ---
 # <type> list
-#   feat    : 새로운 기능 구현
+#   feature : 새로운 기능 구현
 #   fix     : 버그 수정
 #   refactor: 코드 리팩토링
 #   style   : 코드 스타일 변경(세미콜론, 들여쓰기 등)
