@@ -2,6 +2,6 @@
 
 ### Dvelopment Guide written by doohyeon kim.
 
-### Last Updated 2023.07.20
+### Last Updated 2024.08.28
 
 ## Support
