@@ -168,17 +168,6 @@
     | --- | --- |
     | `/path/path/` | **/path/path-path** |
 8. ENUM , 상수는 대문자로 사용한다.
-9. Collection 타입인 경우 타입이 List면 List, 아니면 s/es를 사용한다.
-    1. 예시
-        1. Set, Stream: members
-        2. ArrayList, LinkedList: memberList
-10. DB 쿼리와 구분하기 위해, 서버에서는 아래 키워드를 사용한다.
-    1. get: 단순 조회(다건, 단건)
-        1. getMember, getMembers, getMemberList
-    2. search: 검색
-    3. register: 등록
-    4. modify: 수정
-    5. remove: 삭제
 
 ## etc
 
