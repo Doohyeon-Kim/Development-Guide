@@ -44,14 +44,6 @@
             ```
             
 
-## Architecture
-
-1. 구성원들의 익숙함을 고려하여 Controller - Service - Repository의 구조를 갖도록 하나, DIP를 사용하여 최소한의 클린 아키텍처를 구현한다.
-2. UseCase가 없는 대신에 Service의 메소드를 가능한 잘게 쪼갠다.
-    1. 쪼갤 수록 테스트가 용이해지고 코드를 재사용 할 수 있게 된다.
-3. Controller에서는 Service 의 호출과 Exception 처리만을 담당한다.
-    1. Repository는 CustomizedRepository와 JpaRepository로 구분하고, JpaRepository는 DIP를 적용하지 않고 interface adapter 레이어에 둔다.
-
 ## Policies
 
 1. 데이터 타입을 맞추기 위한 경우가 아니라면 클래스는 상속이 아닌 합성을 사용한다.
